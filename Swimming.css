@@ -1,0 +1,45 @@
+.main-header{
+  display: flex;  
+  justify-content:space-between;
+
+  padding: 50px;
+ /*background-color5: brown;*/
+  
+}
+a{
+  color:#FFF839;}
+a :on-click{
+  color:blue;
+}
+h1{
+  margin-left: 420px;
+  color: white;
+}
+a:hover{
+font-size: 1.2em;
+
+}
+.accomodation:hover .list{
+  display: block;
+  position: absolute;
+  font-size: 1.5em;
+}
+.list{
+  position: absolute;
+  display:none;
+  background-color: white;
+ 
+}
+
+.main-div{
+  background-color: brown;
+}
+
+body,html{
+  height: 50%;
+}
+.bg{
+  background-image: url("fivestar2.jpeg");
+  height: 80%;
+  background-size: cover;
+}

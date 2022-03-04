@@ -1,0 +1,85 @@
+.main-header{
+    display: flex;  
+    justify-content:space-between;
+  
+    padding: 50px;
+   /*background-color5: brown;*/
+    
+  }
+  a{
+    color:#FFF839;}
+  a :on-click{
+    color:blue;
+  }
+  h1{
+    margin-left: 420px;
+    color: white;
+  }
+  a:hover{
+  font-size: 1.2em;
+  
+  }
+  .accomodation:hover .list{
+    display: block;
+    position: absolute;
+    font-size: 1.5em;
+  }
+  .list{
+    position: absolute;
+    display:none;
+    background-color: white;
+   
+  }
+  
+  .main-div{
+    background-color: brown;
+  }
+  
+  body,html{
+    height: 50%;
+  }
+  /*.bg{
+    background-image: url("fivestar2.jpeg");
+    height: 80%;
+    background-size: cover;
+  }*/
+  .words{
+      flex-basis: 30%;
+      padding: 20%;
+  }
+  .maindiv{
+      display: flex;
+  }
+  .booking{
+    background-color: bisque;
+    padding: 10%;
+    padding-left: 300px;
+
+  }
+  .button{
+    background-color: red;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 15px;
+    border-radius: 20px;
+  }
+  .bg{
+    background-color: beige;
+  }
+  .footer .nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+  }
+  
+  .footer .nav ul li {
+    margin-right: 15px;
+    color: #aab8c2;
+    font-size: 12px;
+  }
+.fill{
+  padding-right: 55px;
+  align-content: center;
+}
+  

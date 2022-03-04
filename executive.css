@@ -1,0 +1,19 @@
+.footer .nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+  }
+  
+  .footer .nav ul li {
+    margin-right: 15px;
+    color: #050d13;
+    font-size: 400px;
+  }
+  .bg{
+    background-color: bisque;
+  }
+  .bkg{
+    padding-right: 100px;
+  }
+  
